@@ -77,5 +77,5 @@ def show_coupon():
     <h3>[利用条件]:<br>{}</h3><hr>id:{}</body></html>
     '''.format(html.escape(memo), html.escape(param_id))
 
-if __name__ == '__main__': # サーバー起動
-    app.run('0.0.0.0', PORT_NO, debug=True)
+#if __name__ == '__main__': # サーバー起動
+#    app.run('0.0.0.0', PORT_NO, debug=True)
